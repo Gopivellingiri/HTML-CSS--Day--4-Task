@@ -1,0 +1,221 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+.sub-container{
+    margin: 20px 30px ;
+}
+.sub-container .main-head{
+    border-bottom: 2px solid rgb(121, 121, 121) ;
+}
+.sub-container .main-head h2 {
+    font-size: 26px;
+    font-weight: bold;
+}
+.main-head .content .para-span{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 15px;
+}
+.info-head{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(121, 121, 121);
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.sub-container .info-head2{
+    border-bottom: 2px solid rgb(121, 121, 121);
+    margin-bottom: 20px;
+}
+
+.sub-container .header h1{
+  font-size: 150px;
+  font-weight: bold;
+  text-align: center;
+  
+}
+
+.sub-container .header{
+    margin-bottom: 30px;
+}
+
+
+.sub-container .main-head{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    padding: 10px;
+    justify-content: center;
+    
+}
+.sub-container .sub-header p{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 30px;
+    line-height: 30px;
+}
+.sub-container .bottom-title p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    line-height: 30px;
+}
+.main-head .image img{
+    max-width:100%;
+    height: 400px;    
+}
+
+.main-head .content h3{
+    height: 30px;
+    width: 100px;
+    background-color: #ed255e;
+    font-size: 16px;
+    padding: 5px;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.main-head .content p{
+    text-align: justify;
+}
+
+.grid-content .content1 h3{
+    height: 30px;
+    width: 100px;
+    background-color: #ed255e;
+    font-size: 16px;
+    padding: 5px;
+    text-align: center;
+    margin-top: -50px;
+    color:#fff;
+
+}
+
+.grid-content {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 80px;
+    
+}
+
+.grid-content .content1 img{
+    max-width: 100%;
+    height: auto;
+}
+
+.grid-content .content1:nth-child(3){
+    position: relative;
+    top: -80px;
+
+}
+
+
+.grid-content .content1{
+    position: relative;
+    padding: 5px;
+}
+
+.grid-content .content1 p:nth-child(1){
+    font-size: 18px;
+    font-weight: bold;
+    border-top: 2px solid rgb(121, 121, 121);
+    border-bottom: 2px solid rgb(121, 121, 121);
+    padding: 20px 0px;
+    margin: 20px 0px;
+} 
+.grid-content .content1:nth-child(2) {
+    top: -100px;
+}
+
+
+.sub-container .section-content{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-areas: "a b b";
+    gap: 30px;
+    margin-top: 50px;
+    
+    
+}
+
+.sub-container .section-content .a {
+    grid-area: a;
+}
+.sub-container .section-content .b {
+    grid-area: b;
+}
+
+.sub-container .section-content .box img{
+    max-width: 100%;
+    
+   
+}
+.sub-container .section-content .box .date h4{
+    height: 30px;
+    width: 100px;
+    background-color: #ed255e;
+    font-size: 16px;
+    padding: 5px;
+    text-align: center;
+    position:absolute;
+    top: -15px;
+    font-weight: 800;
+    color: #ededed;
+}
+
+.sub-container .section-content .box{
+    position: relative;
+    margin-bottom: 30px;
+}
+.sub-container .section-content .box hr{
+   
+    height: 2px;
+   background-color: rgb(121, 121, 121);
+   border: none;
+   margin: 40px 0px;
+}
+
+.sub-container .section-content .box p span{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color:#ed255e;
+}
+.sub-container .section-content .box h3{
+    font-size: 20px;
+    font-weight:bold;
+    margin-top: 20px;
+}
+
+.sub-container .section-content{
+    border-bottom: 2px solid rgb(121, 121, 121);
+
+}
+
+.sub-container .info-head1{
+   
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.sub-container .info-head1 a{
+    text-decoration: none;
+    color: #ed255e;
+    display: flex;
+    font-weight:bold;
+}
+ion-icon {
+    color: #ed255e;
+    margin-top: 5px;
+}
